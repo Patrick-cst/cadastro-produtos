@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-simples",
+  "version": "1.0.0",
+  "description": "Aplicação de gerenciamento de produtos com frontend e backend integrados",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "concurrently \"node backend/app.js\" \"serve -p 3000 frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "serve": "^14.2.1",
+    "swagger-ui-express": "^5.0.0",
+    "uuid": "^9.0.1"
+  }
+}

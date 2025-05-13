@@ -7,7 +7,7 @@
     },
     "servers": [
         {
-            "url": "http://localhost:3001",
+            "url": "https://cadastro-produtos-rc75.onrender.com",
             "description": "Servidor local"
         }
     ],

@@ -7,7 +7,7 @@
     },
     "servers": [
         {
-            "url": "https://cadastro-produtos-rc75.onrender.com",
+            "url": "http://localhost:10000/api-docs",
             "description": "Servidor local"
         }
     ],

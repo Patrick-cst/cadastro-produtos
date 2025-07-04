@@ -92,10 +92,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="product-price">R$ ${product.price.toFixed(2)}</p>
                     <p class="product-description">${product.description || 'Sem descrição'}</p>
                     <div class="product-actions">
-                        <button class="btn-edit" data-id="${product.id}">
+                        <button class="btn-edit" id="btnEditar" data-id="${product.id}">
                             <i class="fas fa-edit"></i> Editar
                         </button>
-                        <button class="btn-delete" data-id="${product.id}">
+                        <button class="btn-delete" id="btnDeletar" data-id="${product.id}">
                             <i class="fas fa-trash"></i> Excluir
                         </button>
                     </div>
